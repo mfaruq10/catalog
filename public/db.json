@@ -1,0 +1,61 @@
+{
+    "sneakers":[
+        {
+            "name": "Sepatu Compass PmP",
+            "price": "489.000",
+            "url": "/images/compassPmP.jpg"
+        },
+        {
+            "name": "Convense 70s Hi",
+            "price": "889.000",
+            "url": "/images/converse70.jpg"
+        },
+        {
+            "name": "Patrobas Ivan Black",
+            "price": "239.000",
+            "url": "/images/patrobas.jpg"
+        },
+        {
+            "name": "Ventela Public low",
+            "price": "239.000",
+            "url": "/images/ventela.jpg"
+        }
+
+    ],
+    "jacket":[
+        {
+            "name": "Jaket Kulit",
+            "price": "399.000"
+        },
+        {
+            "name": "Jaket Bulu Tebal",
+            "price": "428.000"
+        },
+        {
+            "name": "Jaket Parasut",
+            "price": "269.000"
+        },
+        {
+            "name": "Jaket Denim",
+            "price": "350.000"
+        }
+    ],
+    "polo":[
+        {
+            "name": "Polo Shirt Lacoste",
+            "price": "150.000"
+        },
+        {
+            "name": "Polo Shirt Ellesse",
+            "price": "250.000"
+        },
+        {
+            "name": "Polo Shirt Adidas",
+            "price": "199.000"
+        },
+        {
+            "name":"Polo Shirt Nike",
+            "price": "150.000"
+        }
+    ]
+}
