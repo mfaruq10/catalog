@@ -11,3 +11,5 @@ new Vue({
 }).$mount('#app')
 
 
+let x = 0;
+cons

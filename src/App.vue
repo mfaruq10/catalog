@@ -44,7 +44,7 @@
 
     <div>
       <b-carousel id="carousel-1" v-model="slide" :interval="5000"  fade indicators background="#ababab"
-        style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
+        style="text-shadow: 1px 1px 2px #333;;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
         <!-- Text slides with image -->
         <b-carousel-slide caption="First slide" text="Nulla vitae elit libero, a pharetra augue mollis interdum."
           img-src="/image/compass.jpg"></b-carousel-slide>
@@ -123,11 +123,78 @@
             </div>
             </section>
         </div>
+ 
 
+  <!-- footer -->
+  <footer>
+        <div class="container">         
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Link First</a></li>
+                        <li><a href="#">Link Second</a></li>
+                        <li><a href="#">Link Third</a></li>
+                        <li><a href="#">Link Fourth</a></li>
+                        <li><a href="#">Link Fifth</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">Link First</a></li>
+                        <li><a href="#">Link Second</a></li>
+                        <li><a href="#">Link Third</a></li>
+                        <li><a href="#">Link Fourth</a></li>
+                        <li><a href="#">Link Fifth</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h3>Our Programs</h3>
+                    <ul>
+                        <li><a href="#">Link First</a></li>
+                        <li><a href="#">Link Second</a></li>
+                        <li><a href="#">Link Third</a></li>
+                        <li><a href="#">Link Fourth</a></li>
+                        <li><a href="#">Link Fifth</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h3 class="mb-4">Fr-store</h3>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Email Id*">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark" type="button">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p>Subscribe Now and stay updated</p>
+                </div>
 
-
-  </body>
-
+                <!-- Copyright section -->
+                <div class="col-12">
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <!-- Social Links -->
+                            <div class="follow-us">
+                                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="text-right">© 2019 Fr-store <a href="" target="_blank" rel="noopener noreferrer"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--end footer -->
+ </body>
   </html>
 </template>
 
@@ -215,6 +282,7 @@
     list-style-type: none;
     height: 250px;
   }
+ 
 
   .product-image {
     background: #f4f4ef;
@@ -271,9 +339,48 @@
   }
 
   .page-footer {
-    color: white;
+    color: rgb(0, 0, 0);
     background: #20232a;
   }
+footer {
+    padding: 50px 0px 20px;
+    background-color: powderblue;
+    
+}
+footer ul {
+    padding: 0px;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a {
+    padding: 3px 0px;
+    display: block;
+}
+footer a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+footer a:hover {
+    color: green;
+    text-decoration: none;
+}
+footer p {
+    color: black;
+    margin: 0;
+    font-size: 16px;
+    padding: 8px 6px;
+}
+footer h3 {
+    font-size: 20px;
+    color: green;
+}
+.follow-us a {
+    padding: 8px 6px;
+    display: inline-block;
+}
+  
   @media only screen and (min-width: 1100px) {
    .carousel-item {
     height: 100vh;
